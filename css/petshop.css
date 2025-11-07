@@ -44,15 +44,27 @@ h2{
     text-transform: uppercase;
     margin-bottom: 15px;
 }
-
-
+form{
+    width: 380px;
+}
+form input,
+form textarea{
+width: 100%;
+border: 1px solid #6dd432;
+padding: 10px;
+margin: 5px 0 10px 0;
+border-radius: 4px;
+}
+iframe{
+    width: 100%;
+}
 /* Especificos (#id) */
 #itemContato{
     background-image: none;
     padding-right: 0;
     margin-right: 0;
 }
-#produto .flex-conteiner{
+#produto .flex-conteiner, #contato .flex-conteiner{
     margin-top: 43px;
 }
 /* Grupos de elementos diferentes (.classe) */
@@ -78,9 +90,10 @@ h2{
 
 .produto{
     width: 235px;
+    
 }
 
-.produto figure{
+.produto  figure{
     border: 1px solid #c4c4c4;
     background-color: #FFF;
     margin: 0 0 15px 0; 
@@ -89,9 +102,6 @@ h2{
     text-align: center;
     height: 160px;
     /* line-height: 160px; */
-}
-.produto figure img{
-
 }
 .texto-centralizado{
     text-align: center;
@@ -106,4 +116,9 @@ h2{
     color: #000;
     border-radius: 5px;
     cursor: pointer;
+}
+footer{
+    background-color: #bdff9c;
+    margin: 30px;
+    padding: 40px;
 }
