@@ -119,6 +119,15 @@ iframe{
 }
 footer{
     background-color: #bdff9c;
-    margin: 30px;
-    padding: 40px;
+    padding: 100px;
+    margin: 5px 0 10px 0;
+}
+footer h3{
+    margin-top: 10px;
+    text-align: center;
+}
+footer a{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
 }
